@@ -6,7 +6,7 @@
  * @returns {Response} https://developer.mozilla.org/en-US/docs/Web/API/Response
  */
 async function handleRequest(request, args) {
-  const message = `Hello World!`;
+  const message = `Hey, Coder! you're 99% bug-free ...but  remember ,1% of bug can still make u look fabulous.keep it up !`;
 
   return new Response(message, {
     headers: {
