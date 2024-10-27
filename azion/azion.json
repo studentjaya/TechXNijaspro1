@@ -1,0 +1,42 @@
+{
+  "name": "TechXNijaspro1",
+  "bucket": "",
+  "preset": "javascript",
+  "env": "production",
+  "prefix": "20241027043850",
+  "not-first-run": true,
+  "function": {
+    "id": 31241,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 29928,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 182262
+  },
+  "application": {
+    "id": 1730002180,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1730000834,
+    "name": "TechXNijaspro1",
+    "domain_name": "wu47slynne.map.azionedge.net",
+    "url": "https://wu47slynne.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 311762,
+        "name": "Execute Edge Function",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
